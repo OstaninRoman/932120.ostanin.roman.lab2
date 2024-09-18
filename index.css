@@ -1,0 +1,23 @@
+
+header{
+    background-color: lightgrey;
+    padding: 1px;
+}
+
+.left-column{
+    width: 200px;
+    height: 100%;
+    float: left;
+    background-color: lightgreen;
+}
+
+.content{
+    margin-left: 210px;
+    height: 100%;
+}
+
+.text{
+    line-height: 1.5;
+}
+
+
