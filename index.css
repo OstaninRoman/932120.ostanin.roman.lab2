@@ -1,23 +1,28 @@
 
 header{
-    background-color: lightgrey;
+    background-color: #EAEAEA;
     padding: 1px;
 }
 
 .left-column{
-    width: 200px;
-    height: 100%;
+    width: 25%;
     float: left;
-    background-color: lightgreen;
+    background-color: #C8FC98;
+    padding: 0 0 0 5px;
 }
 
 .content{
-    margin-left: 210px;
-    height: 100%;
+    margin-left: 25%;
+    margin-right: 200px;
 }
 
 .text{
     line-height: 1.5;
 }
 
-
+.right-column{
+    width: 200px;
+    float: right;
+    background-color: #FDE95E;
+    padding: 0 0 0 5px;
+}
