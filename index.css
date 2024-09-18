@@ -5,10 +5,10 @@ header{
 }
 
 .left-column{
-    width: 200px;
+    width: 25%;
     height: 100%;
     float: left;
-    background-color: lightgreen;
+    background-color: #C8FC98;
 }
 
 .content{
