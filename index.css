@@ -1,19 +1,17 @@
 
 header{
-    background-color: lightgrey;
+    background-color: #EAEAEA;
     padding: 1px;
 }
 
 .left-column{
-    width: 25%;
-    height: 100%;
+    width: 200px;
     float: left;
     background-color: #C8FC98;
 }
 
 .content{
-    margin-left: 210px;
-    height: 100%;
+    margin-left: 205px;
 }
 
 .text{
