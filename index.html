@@ -1,0 +1,43 @@
+<html lang="eng">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Task 2.7</title>
+    <style>
+        #blueviolet{
+            background-color: blueviolet;
+            position: static;
+        }
+        #darkred{
+            background-color: darkred;
+            position: relative;
+        }
+        #peru{
+            background-color: peru;
+            position: relative;
+        }
+        #indianred{
+            background-color: indianred;
+            position: relative;
+        }
+        #indigo{
+            background-color: indigo;
+            position: absolute;
+        }
+        #green{
+            background-color: green;
+            position: fixed;
+        }
+    </style>
+    <body>
+        <div id="blueviolet">It's a static div!</div>
+        <div id="darkred">It's a relative div!</div>
+        <div id="peru">It's a relative div!</div>
+        <div id="indianred">
+            It's a relative div!
+            <div id="indigo">
+                It's an absolute div with relative parent!
+            </div>
+        </div>
+        <div id="green">It's a fixed div!</div>
+    </body>
+</html>

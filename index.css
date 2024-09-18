@@ -1,0 +1,41 @@
+*{
+    color: white;
+}
+
+#blueviolet, #darkred, #peru{
+    width: 200px;
+    height: 150px;
+}
+
+#darkred{
+    
+}
+
+#peru{
+    top: -50px;
+    left: 100px;
+}
+
+#indianred{
+    width: 700px;
+    height: 500px;
+    z-index: 2;
+}
+
+#indigo{
+    width: 300px;
+    height: 200px;
+    top: 200px;
+    left: 400px;
+}
+
+#green{
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+
+
