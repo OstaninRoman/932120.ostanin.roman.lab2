@@ -1,8 +1,21 @@
 .content{
+    background-color: green;
+    color: white;
+    overflow: auto;
+    width: 350px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.blue{
     background-color: blue;
     color: white;
-    font-size: 16;
-    overflow: auto;
-    width: 500px;
+    padding: 20px;
+    border: 20px;
+    width: 400px;
     margin: auto;
+}
+
+*{
+    font-size: 12;
 }
