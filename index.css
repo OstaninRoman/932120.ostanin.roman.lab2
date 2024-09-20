@@ -1,6 +1,9 @@
 .content{
     background-color: blue;
     color: white;
-    margin-left: 30%;
-    margin-right: 30%;
+    font-size: 16;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 500px;
+    margin: auto;
 }
