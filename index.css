@@ -1,6 +1,4 @@
 .content{
-    background-color: green;
-    color: white;
     overflow: auto;
     width: 350px;
     margin: auto;
@@ -8,12 +6,12 @@
 }
 
 .blue{
-    background-color: blue;
-    color: white;
-    padding: 20px;
-    border: 20px;
-    width: 400px;
+    padding: 40px;
+    width: 350px;
+    height: 350px;
     margin: auto;
+    border: blue solid 7px;
+    box-sizing: border-box;
 }
 
 *{
