@@ -1,19 +1,48 @@
 .content{
-    overflow: auto;
-    width: 350px;
-    margin: auto;
-    margin-bottom: 20px;
-}
-
-.blue{
-    padding: 40px;
-    width: 350px;
-    height: 350px;
-    margin: auto;
-    border: blue solid 7px;
-    box-sizing: border-box;
+    background-color: darkgray;
+    flex: 1;
 }
 
 *{
-    font-size: 12;
+    font-size: 12px;
+}
+
+footer{
+    background-color: limegreen;
+    padding: 12px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+aside{
+    float: left;
+    width: 150px;
+    overflow: hidden;
+}
+
+.list{
+    background-color: bisque;
+    width: 100%;
+    height: 100px;
+}
+
+.aqua{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+}
+
+.block{
+    display: flex;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
+
+li{
+    margin: 0 10px;
 }
