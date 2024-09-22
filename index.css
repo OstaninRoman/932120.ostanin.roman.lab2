@@ -2,7 +2,13 @@
     background-color: blue;
     color: white;
     font-size: 16px;
-    overflow: auto;
-    width: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 600px;
     margin: auto;
+}
+
+img{
+    float: right;
+    padding: 0 0 10px 15px;
 }
