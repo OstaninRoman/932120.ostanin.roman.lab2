@@ -1,7 +1,7 @@
 .content{
     background-color: blue;
     color: white;
-    font-size: 16;
+    font-size: 16px;
     overflow: auto;
     width: 500px;
     margin: auto;
