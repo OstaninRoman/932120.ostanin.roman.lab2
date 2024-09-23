@@ -46,9 +46,19 @@ li{
         flex-direction: column;
     }
     aside{
-        width: 20%;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+    ul{
+        height: 15px;
+    }
+    li{
+        display: inline;
+        list-style: none;
     }
     main{
-        width: 80%;
+        width: 100%;
     }
 }
