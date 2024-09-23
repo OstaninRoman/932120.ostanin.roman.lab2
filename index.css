@@ -1,18 +1,18 @@
-.float-box {
-    width: 200px;
-    height: 100px;
+.block {
+    width: 300px;
+    height: 150px;
     background-color: aquamarine;
-    float: left;
-    position: fixed;
-    top: 20px;
-    left: 20px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.conteiner{
+    text-align: center;
 }
 
 .clear-box {
     clear: both;
     background-color: bisque;
-    position: fixed;
-    top: 140px;
     left: 1%;
     width: 98%;
 }
